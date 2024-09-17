@@ -117,7 +117,7 @@ class NegationDetection:
             return (len(indictors), len(indictors))
 
     def __call__(
-        self, strr: str  # type: str
+        self, strr  # type: str
     ):  # type: (str) -> Tuple[List[str], List[Tuple[int, int, int]]]
         """ Detect negation word and scope from an input sentence """
         """ Return the word list of the input sentence and the triplets (represented by three integers)
